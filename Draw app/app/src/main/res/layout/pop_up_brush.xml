@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/colorbox">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/linearLayout1">
+                <ImageButton
+                    android:id="@+id/red"
+                    android:src="@drawable/brush_1"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked"
+                    android:tag="#F90404" />
+                <ImageButton
+                    android:id="@+id/blue"
+                    android:src="@drawable/brush_2"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked"
+                    android:tag="#040CF9 " />
+                <ImageButton
+                    android:id="@+id/skyblue"
+                    android:src="@drawable/brush_3"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked" />
+
+                <ImageButton
+                    android:id="@+id/yellow"
+                    android:src="@drawable/brush_4"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked" />
+                <ImageButton
+                    android:id="@+id/green"
+                    android:src="@drawable/brush_5"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked"
+                    android:tag="#00cc00"/>
+                <ImageButton
+                    android:id="@+id/lightgreen"
+                    android:src="@drawable/brush_6"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked"
+                    android:tag="#32CD32"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <ImageButton
+                    android:id="@+id/purple"
+                    android:src="@drawable/brush_7"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked"
+                    android:tag="#ED04F9" />
+                <ImageButton
+                    android:id="@+id/pink"
+                    android:src="@drawable/brush_8"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked"
+                    android:tag="#e6b3cc"/>
+                <ImageButton
+                    android:id="@+id/orange"
+                    android:src="@drawable/brush_9"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked"
+                    android:tag="#FF4500"/>
+
+                <ImageButton
+                    android:id="@+id/brown"
+                    android:src="@drawable/brush_10"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked" />
+                <ImageButton
+                    android:id="@+id/black"
+                    android:src="@drawable/brush_11"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked"
+                    android:tag="#000000" />
+
+
+                <ImageButton
+                    android:id="@+id/white"
+                    android:src="@drawable/brush_12"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_margin="8dp"
+                    android:onClick="paintClicked"
+                    android:tag="#ffffff"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

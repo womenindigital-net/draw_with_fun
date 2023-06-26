@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:id="@+id/linearLayout1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/colorbox">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/linearLayout">
+            <ImageButton
+                android:id="@+id/red"
+                android:src="@drawable/pencil_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape" />
+            <ImageButton
+                android:id="@+id/blue"
+                android:src="@drawable/pencil_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape" />
+            <ImageButton
+                android:id="@+id/skyblue"
+                android:src="@drawable/pencil_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape"/>
+
+            <ImageButton
+                android:id="@+id/yellow"
+                android:src="@drawable/pencil_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape"/>
+            <ImageButton
+                android:id="@+id/green"
+                android:src="@drawable/pencil_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape"/>
+            <ImageButton
+                android:id="@+id/lightgreen"
+                android:src="@drawable/pencil_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <ImageButton
+                android:id="@+id/purple"
+                android:src="@drawable/pencil_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape" />
+            <ImageButton
+                android:id="@+id/pink"
+                android:src="@drawable/pencil_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape"/>
+            <ImageButton
+                android:id="@+id/orange"
+                android:src="@drawable/pencil_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape"/>
+
+            <ImageButton
+                android:id="@+id/brown"
+                android:src="@drawable/pencil_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape"/>
+            <ImageButton
+                android:id="@+id/black"
+                android:src="@drawable/pencil_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape"/>
+
+
+            <ImageButton
+                android:id="@+id/white"
+                android:src="@drawable/pencil_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="paintClicked"
+                android:background="@drawable/shape"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
